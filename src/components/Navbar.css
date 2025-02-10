@@ -1,0 +1,119 @@
+/* General Styling */
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar */
+  .navbar {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    background: transparent;
+    padding: 8px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* White Background Behind Navbar */
+  .navbar::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0.9;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: -1;
+  }
+  
+  /* Logo */
+  .logo-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 20px;
+  }
+  
+  .navbar-logo {
+    height: 60px;
+    width: auto;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Ensuring hover works for Link */
+  .nav-links li {
+    text-align: center;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    padding: 5px 10px;  /* Add padding to increase hover area */
+    display: inline-block; /* Ensure it behaves like an inline-block element */
+  }
+  
+  /* Hover Effect */
+  .nav-links li a:hover {
+    color: #007bff;
+    background-color: rgba(0, 123, 255, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Mobile Menu */
+  .menu-button {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .menu-button {
+      display: block;
+    }
+  
+    .nav-open {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      background: white;
+      text-align: center;
+      border-radius: 12px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 10px 0;
+    }
+  }
+  
