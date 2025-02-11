@@ -1,0 +1,40 @@
+.committee-card {
+  width: 250px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.committee-title {
+  background-color: green;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.committee-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: 15px;
+  border: 3px solid green;
+  object-fit: cover;
+}
+
+.committee-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin-top: 10px;
+}
+
+.committee-designation,
+.committee-institution {
+  font-size: 14px;
+  color: black;
+  margin-top: 5px;
+}

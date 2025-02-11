@@ -1,7 +1,12 @@
 import React from "react";
+import RegistrationFees from "../components/RegistrationFees";
 
 const Registration = () => {
-  return <h1>Registration</h1>;
+  return (
+    <div>
+      <RegistrationFees />
+    </div>
+  );
 };
 
 export default Registration;

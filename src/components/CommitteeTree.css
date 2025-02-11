@@ -1,0 +1,24 @@
+.committee-tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .tree-level {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .tree-level {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+  }
+  

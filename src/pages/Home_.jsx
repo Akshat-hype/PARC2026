@@ -23,7 +23,7 @@ function Home() {
         <img src={logo} alt="Logo" className="logo" />
         <h1 className="overlay-text">
           4<sup>th</sup> International Conference on Power Electronics & IoT Application in Renewable Energy and its Control
-          ( PARC 2024 )
+          ( PARC 2026 )
         </h1>
         <p className="overlay-subtext">Next Year</p>
       </div>
@@ -72,7 +72,7 @@ function Home() {
 
       <div class="parc">
     <div class="container">
-        <h2 class="section-title">About PARC 2024</h2>
+        <h2 class="section-title">About PARC 2026</h2>
         <div class="parc-content">
             <div class="parc-text">
                 <p>

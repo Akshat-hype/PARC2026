@@ -1,0 +1,70 @@
+.registration-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    justify-content: center; /* Centers content vertically if needed */
+    width: 100%;
+    text-align: center;
+    padding-left: 200px;
+}
+
+.registration-container .registration-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: black; /* Ensures the title is black */
+    margin-bottom: 20px;
+}
+
+
+
+.registration-fees-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.registration-table {
+    width: 80%; /* Adjust width as needed */
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+}
+
+.registration-table th,
+.registration-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    color: black; /* Ensuring text is black */
+}
+
+.registration-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.registration-header {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: black; /* Changed to black */
+    margin-bottom: 20px;
+}
+
+
+.registration-button {
+    background-color: #008000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.registration-button:hover {
+    background-color: #006400;
+}
