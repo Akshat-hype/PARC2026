@@ -1,0 +1,111 @@
+/* Past Conferences Section */
+.past-conferences {
+    width: 100%;
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #f9f9f9, #e3e3e3);
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Conference Cards */
+  .conference-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .card {
+    width: 320px;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Number Circle */
+  .circle {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .card:hover .circle {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  }
+  
+  /* Card Content */
+  .card h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: 12px 20px;
+    border: 2px solid #007bff;
+    background: white;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  .button:hover {
+    background: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .conference-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 90%;
+    }
+  }
+  

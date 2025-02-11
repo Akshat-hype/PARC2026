@@ -1,0 +1,46 @@
+.announcement-container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+  }
+  
+  .announcement-title {
+    color: green;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .underline {
+    width: 50px;
+    border: 2px solid black;
+    margin: 5px auto 20px;
+  }
+  
+  .announcement-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .announcement-list li {
+    font-size: 1.2rem;
+    color: green;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .download-link {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .ppt-link {
+    display: block;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: blue;
+    font-weight: bold;
+  }
+  
