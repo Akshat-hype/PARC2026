@@ -1,0 +1,56 @@
+/* Sponsors Section Styling */
+.sponsors-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+    color: black;
+    padding-top: 100px;
+  }
+  
+  .sponsors-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    text-transform: uppercase;
+  }
+  
+  .title-underline {
+    width: 80px;
+    border: 2px solid black;
+    margin: 10px auto;
+  }
+  
+  .sponsors-description {
+    font-size: 16px;
+    max-width: 100%;
+    margin: 0 auto 20px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  /* Table Styling */
+  .table-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sponsors-table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+  }
+  
+  .sponsors-table th,
+  .sponsors-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .sponsors-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
