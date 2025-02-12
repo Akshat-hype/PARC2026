@@ -76,14 +76,21 @@ function Home() {
         <div class="parc-content">
             <div class="parc-text">
                 <p>
-                    The International Conference on Power Electronics & IoT Applications in Renewable Energy and its Control (PARC 2026) 
-                    will be organized by the Department of Electrical Engineering, GLA University, Mathura, India, during next year. 
-                    The focus is on "Power Electronics, IoT, and Renewable Energy applications," addressing modern smart grids, renewable energy, 
-                    and control strategies.
+                The Department of Electrical Engineering will organize the PARC 2026 from 21st -22nd  February 2026 at GLA University, Mathura, India. With the conference theme on "Power Electronics, IoT and Renewable Energy applications", PARC 2026 would have tutorials, keynotes, panel discussion, paper & poster presentations, and opportunities for industry/trade exhibits, with separate industry sessions and student competitions as an integral part of the conference. It would offer ample networking opportunities for scientific & industrial collaboration.
                 </p>
                 <p>
-                    PARC 2026 will feature tutorials, keynotes, panel discussions, paper & poster presentations, and industry/trade exhibits. 
-                    The event will offer networking opportunities for scientific & industrial collaboration.
+                This conference will explore these research areas further by examining the importance of power electronics and IoT and their applications in the modern smart grid and the increasing Integration of renewable energy due to increasing environmental concerns. 
+                </p>
+                <p>
+                Power electronics is an essential area of electrical engineering and a crucial technology for using renewable power generation in modern power grids. These devices convert electricity from one stage to the other, leading to a power electronic-based power system. With the high penetration of electronic-based power generators, several technical challenges will appear in power grids. A new research platform is needed to design and test power electronic-based generators and their Integration with the power grid. 
+                </p>
+                <p>
+                Power network operators are rapidly embracing renewable power generation into their power grids to meet the targets in power generation. Renewable energies such as wind and solar have become an inevitable part of power generation in current grid scenarios.  However, unlike conventional power generation sources, renewable energy sources' output is intermittent.  Advanced control strategies are required to handle the system's changing dynamics, nonlinearities, and uncertainties.  Efficient control strategies would increase the number of operational hours of the system and reduce the cost of the electricity produced.
+                </p>
+                <p>
+                At the same time, renewable energy companies face pressure to increase their profits and productivity as the industry scales worldwide. To keep up with growing demand, these companies continually expand their capacity and thus want improved methods to manage these large capacities in remote areas. That's where IoT analytics can help. IoT analytics can provide - Big data analytics and quicker analysis of sensor outputs, Horizontal Integration and vertical application, Decentralization and Integration of advanced analytics and machine learning. With the world relying more heavily on renewables as a critical energy source, we need a way to harness IoT data quickly and accurately to scale renewable energy across the globe successfully. IoT is arguably one of the main distinguishers for the winners in the next growth stage in the renewable energy sector.
+                </p>
+                <p>This conference aims to explore the challenges in Future Grid-Interactive Power Converters regarding control strategies, optimal operation, and corrective actions. PARC 2024 also targets presenting the latest research on new techniques for overcoming the technical challenges of grid integration of renewable energy systems, such as synchronization of interfaced converters with the power grid and operation and control of different power converters in power systems with large shares of renewable energies. The other area of focus of this conference is the application of IoT analytics in the renewable energy sector.
                 </p>
             </div>
             <div class="parc-image">

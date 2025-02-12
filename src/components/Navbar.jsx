@@ -21,7 +21,7 @@ const Navbar = () => {
       {/* Navigation Links */}
       <ul className={`nav-links ${menuOpen ? "nav-open" : ""}`}>
         {[
-          "Home", "About", "Committee", "Keynote Speakers", "Tutorial",
+          "Home", "Committee", "Keynote Speakers", "Tutorial",
           "Registration", "Call For Paper", "Submission", "Venue",
           "Accommodation", "Gallery", "Contact Us", "Sponsors"
         ].map((item) => (

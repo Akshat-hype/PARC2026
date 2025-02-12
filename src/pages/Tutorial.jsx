@@ -1,7 +1,14 @@
 import React from "react";
+import "./Tutorial.css"; // Import CSS
+import TutorialPerson from "../components/TutorialPerson"; // Import the component
 
 const Tutorial = () => {
-  return <h1 color="black">Tutorial</h1>;
+  return (
+    <div className="tutorial-page">
+      
+      <TutorialPerson />
+    </div>
+  );
 };
 
 export default Tutorial;
