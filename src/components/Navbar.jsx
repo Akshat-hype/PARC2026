@@ -19,7 +19,16 @@ function Navbar() {
         <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
         <li><Link to="/about" onClick={() => setMenuOpen(false)}>About</Link></li>
         <li><Link to="/committee" onClick={() => setMenuOpen(false)}>Committee</Link></li>
+        <li><Link to="/keynotespeakers" onClick={() => setMenuOpen(false)}>Keynote Speakers</Link></li>
+        <li><Link to="/tutorial" onClick={() => setMenuOpen(false)}>Tutorial</Link></li>
         <li><Link to="/registration" onClick={() => setMenuOpen(false)}>Registration</Link></li>
+        <li><Link to="/callforpaper" onClick={() => setMenuOpen(false)}>Call For Paper</Link></li>
+        <li><Link to="/submission" onClick={() => setMenuOpen(false)}>Submission</Link></li>
+        <li><Link to="/venue" onClick={() => setMenuOpen(false)}>Venue</Link></li>
+        <li><Link to="/accommodation" onClick={() => setMenuOpen(false)}>Accommodation</Link></li>
+        <li><Link to="/gallery" onClick={() => setMenuOpen(false)}>Gallery</Link></li>
+        <li><Link to="/contactus" onClick={() => setMenuOpen(false)}>Contact Us</Link></li>
+        <li><Link to="/sponsors" onClick={() => setMenuOpen(false)}>Sponsors</Link></li>
       </ul>
 
       {/* Mobile Menu Button */}
