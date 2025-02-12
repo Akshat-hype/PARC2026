@@ -2,41 +2,43 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
 import "./Navbar.css";
-import logo from "../assets/logo.webp"; // Update path if needed
+import logo from "../assets/gla_lgog.webp"; // Update the path if needed
 
-function Navbar() {
+const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
     <nav className="navbar">
-      {/* Logo Section */}
+      {/* Logo */}
       <div className="logo-container">
-        <img src={logo} alt="Logo" className="navbar-logo" />
+        <Link to="/" onClick={() => setMenuOpen(false)}>
+          <img src={logo} alt="Logo" className="navbar-logo" />
+        </Link>
       </div>
 
       {/* Navigation Links */}
       <ul className={`nav-links ${menuOpen ? "nav-open" : ""}`}>
-        <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
-        <li><Link to="/about" onClick={() => setMenuOpen(false)}>About</Link></li>
-        <li><Link to="/committee" onClick={() => setMenuOpen(false)}>Committee</Link></li>
-        <li><Link to="/keynotespeakers" onClick={() => setMenuOpen(false)}>Keynote Speakers</Link></li>
-        <li><Link to="/tutorial" onClick={() => setMenuOpen(false)}>Tutorial</Link></li>
-        <li><Link to="/registration" onClick={() => setMenuOpen(false)}>Registration</Link></li>
-        <li><Link to="/callforpaper" onClick={() => setMenuOpen(false)}>Call For Paper</Link></li>
-        <li><Link to="/submission" onClick={() => setMenuOpen(false)}>Submission</Link></li>
-        <li><Link to="/venue" onClick={() => setMenuOpen(false)}>Venue</Link></li>
-        <li><Link to="/accommodation" onClick={() => setMenuOpen(false)}>Accommodation</Link></li>
-        <li><Link to="/gallery" onClick={() => setMenuOpen(false)}>Gallery</Link></li>
-        <li><Link to="/contactus" onClick={() => setMenuOpen(false)}>Contact Us</Link></li>
-        <li><Link to="/sponsors" onClick={() => setMenuOpen(false)}>Sponsors</Link></li>
+        {[
+          "Home", "About", "Committee", "Keynote Speakers", "Tutorial",
+          "Registration", "Call For Paper", "Submission", "Venue",
+          "Accommodation", "Gallery", "Contact Us", "Sponsors"
+        ].map((item) => (
+          <li key={item}>
+            <Link to={`/${item.toLowerCase().replace(/\s+/g, "")}`} onClick={() => setMenuOpen(false)}>
+              {item}
+            </Link>
+          </li>
+        ))}
       </ul>
 
       {/* Mobile Menu Button */}
-      <button className="menu-button" onClick={() => setMenuOpen(!menuOpen)}>
+      <button className="menu-button" onClick={toggleMenu}>
         {menuOpen ? <FiX /> : <FiMenu />}
       </button>
     </nav>
   );
-}
+};
 
 export default Navbar;
