@@ -1,0 +1,54 @@
+.reg-page{
+    padding-top: 90px;
+}
+.bank-payment-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .note-heading {
+    color: green;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .note-text {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .payment-button {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .payment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    color: black;
+  }
+  
+  .payment-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .payment-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  

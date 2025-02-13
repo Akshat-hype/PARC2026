@@ -3,17 +3,20 @@
     max-width: 90%;
     margin: auto;
     text-align: center;
+    padding-top: 90px;
   }
   
   .title {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    color: black;
   }
   
   .description {
     font-size: 1rem;
     margin-bottom: 2rem;
+    color: black;
   }
   
   .hotel-card {
