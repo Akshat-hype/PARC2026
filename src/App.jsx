@@ -22,6 +22,7 @@ const App = () => {
       <div className="pt-20 text-center">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/committee" element={<Committee />} />
           <Route path="/keynotespeakers" element={<KeynoteSpeakers/>} />
