@@ -1,0 +1,31 @@
+.call{
+    padding-top: 70px;
+}
+
+.call-for-paper {
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    margin-bottom: 50px;
+    padding-left: 150px;
+  }
+  
+  .call-for-paper h2 {
+    color: #008040;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .call-for-paper hr {
+    width: 80px;
+    border: 2px solid black;
+    /* margin: 10px auto; */
+  }
+  
+  .call-for-paper p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  

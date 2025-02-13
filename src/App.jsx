@@ -14,6 +14,7 @@ import Accommodation from "./pages/Accommodation";
 import Gallery from "./pages/Gallery";
 import ContactUs from "./pages/ContactUs";
 import Sponsors from "./pages/Sponsors";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
 
         </Routes>
       </div>
+      <Footer/>
     </Router>
   );
 };

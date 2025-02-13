@@ -1,0 +1,52 @@
+.important-dates {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 40px auto;
+    max-width: 800px;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #008000;
+    margin-bottom: 20px;
+  }
+  
+  .dates-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: black;
+  }
+  
+  .dates-table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+  }
+  
+  .dates-table tr:nth-child(odd) td {
+    background-color: #e0e0e0;
+  }
+  
+  .highlight-text {
+    font-weight: bold;
+    color: blue;
+  }
+  
+  .highlight-date {
+    font-weight: bold;
+    color: #0000ff;
+  }
+  
+  .note {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+  }
+  
+  .note-highlight {
+    color: red;
+    font-weight: bold;
+  }
+  

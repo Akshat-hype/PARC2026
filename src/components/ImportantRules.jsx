@@ -23,7 +23,7 @@ const ImportantRules = () => {
           <li>Everybody who has paid the conference fees will receive an official receipt at the conference venue.</li>
           <li>No CANCELLATION & REFUND of Registration Fee.</li>
           <li>Please note that the registration fee is only for paper publication and attending the conference. Authors should bear all lodging and boarding expenses on their own. (Subsidized accommodation can be provided on campus on prior request).</li>
-          <li>Please mail to us the filled registration form, copyright, and camera-ready copy at: <a href="mailto:parc2024@gla.ac.in" className="email-link">parc2024@gla.ac.in</a></li>
+          <li>Please mail to us the filled registration form, copyright, and camera-ready copy at: <a href="mailto:parc2026@gla.ac.in" className="email-link">parc2026@gla.ac.in</a></li>
         </ul>
       </section>
     </div>

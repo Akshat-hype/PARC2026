@@ -4,22 +4,21 @@ import "./TechnicalProgramCommittee.css";
 const TechnicalProgramCommittee = () => {
   const columns = [
     [
-      { name: "Dr. John Doe", designation: "Professor, MIT, USA" },
-      { name: "Dr. Jane Smith", designation: "Research Scientist, NASA, USA" },
-      { name: "Prof. Michael Johnson", designation: "AI Expert, Stanford, USA" },
-      { name: "Dr. Emily Davis", designation: "Head of Robotics, Google, USA" },
+      { name: "Prof. M.V. Aware", designation: "Professor, VNIT, NAGPUR" },
+      { name: "Dr. Pradyumn Chaturvedi", designation: "Assistant prof., VNIT, NAGPUR" },
+      { name: "Dr. Jay Prakash Singh", designation: "Assistant prof., VNIT, NAGPUR" },
+      { name: "Prof. Rajive Tiwari", designation: "Professor, MNIT, Jaipur" },
     ],
     [
-      { name: "Prof. Richard Lee", designation: "Data Science, Harvard, USA" },
-      { name: "Dr. Olivia Martinez", designation: "Cybersecurity, Oxford, UK" },
-      { name: "Prof. Ethan Williams", designation: "Machine Learning, CMU, USA" },
-      { name: "Dr. Sophia Brown", designation: "Blockchain, University of Toronto, Canada" },
+      { name: "Dr. Dipti Saxena", designation: "Associate Professor, MNIT, Jaipur" },
+      { name: "Dr. Rohit Bhakar", designation: "Associate Professor, MNIT, Jaipur" },
+      { name: "Dr. Akhilesh Mathur", designation: "Assistant Professor, MNIT, Jaipur" },
+      { name: "Dr. Man Mohan Garg", designation: "Assistant Professor, MNIT, Jaipur" },
     ],
     [
-      { name: "Dr. Liam Wilson", designation: "IoT Expert, ETH Zurich, Switzerland" },
-      { name: "Dr. Ava Robinson", designation: "Quantum Computing, University of Cambridge, UK" },
-      { name: "Prof. Lucas Hall", designation: "Software Engineering, UC Berkeley, USA" },
-      { name: "Dr. Isabella Clark", designation: "Big Data, University of Sydney, Australia" },
+      { name: "Dr. Nitin Gupta", designation: "Assistant Professor, MNIT, Jaipur" },
+      { name: "Dr. Ravita Lamba", designation: "Assistant Professor, MNIT, Jaipur" },
+      { name: "Dr. Kapil Shukla", designation: "Assistant Professor, MNIT, Jaipur" },
     ],
   ];
 

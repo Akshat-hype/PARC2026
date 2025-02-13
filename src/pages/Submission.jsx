@@ -44,7 +44,7 @@ const Submission = () => {
           <strong>Log-in to:</strong> <span className="highlight">Microsoft CMT</span>
         </p>
         <p className="note">
-          Please note: The link will be active only from 1st March, 2023 till the closing date of submissions.
+          Please note: The link will be active only from 1st March, 2025 till the closing date of submissions.
         </p>
       </div>
     </div>

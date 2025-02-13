@@ -25,7 +25,7 @@ function Home() {
           4<sup>th</sup> International Conference on Power Electronics & IoT Application in Renewable Energy and its Control
           ( PARC 2026 )
         </h1>
-        <p className="overlay-subtext">Next Year</p>
+        <p className="overlay-subtext">21<sup>st</sup> - 22<sup>nd</sup> February 2026</p>
       </div>
 
       <div className="carousel-container">
