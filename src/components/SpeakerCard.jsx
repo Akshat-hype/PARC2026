@@ -1,5 +1,8 @@
 import React from "react";
 import "./SpeakerCard.css";
+import speaker1 from "../assets/ProfRCBansal.webp";
+import speaker2 from "../assets/ArunKumarPaul.webp";
+import speaker3 from "../assets/AsheeshKumarSingh.webp";
 
 const speakersData = [
   {
@@ -14,21 +17,21 @@ const speakersData = [
     title: "Professor",
     designation: "University of Sharjah",
     university: "UAE",
-    image: "/path/to/rc-bansal.jpg",
+    image: speaker1,
   },
   {
     name: "Dr. Asheesh Kumar Singh",
     title: "SMIEEE, Professor",
     designation: "Department of Electrical Engineering",
     university: "Motilal Nehru National Institute of Technology Allahabad",
-    image: "/path/to/asheesh-kumar-singh.jpg",
+    image: speaker2,
   },
   {
     name: "Mr. Arun Kumar Paul",
     title: "Technical Director",
     designation: "Electronics Devices Worldwide Pvt Ltd",
     university: "India",
-    image: "/path/to/arun-kumar-paul.jpg",
+    image: speaker3,
   },
 ];
 

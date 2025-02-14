@@ -5,6 +5,19 @@ import chiefParton from "../assets/chiefParton.webp";
 import coChiefParton from "../assets/coChiefParton.webp";
 import Parton1 from "../assets/Patron1.webp";
 import Parton2 from "../assets/Parton2.webp";
+import Parton3 from "../assets/Parton3.webp";
+import ChairPerson from "../assets/ChairPerson.webp";
+import ChairPerson2 from "../assets/ChairPerson2.webp";
+import Facilitator from "../assets/facilator1.webp";
+import HonoraryGeneralChair from "../assets/honoraryGeneralChair.webp";
+import GeneralChair from "../assets/generalChair1.webp";
+import TechnicalChair from "../assets/technicalProgrammeChair.webp";
+import TechnicalChair2 from "../assets/technicalProgrammeChair2.webp";
+
+// import FinanceChair from "../assets/financeChair.webp";
+// import OrganizingChair from "../assets/organizingChair.webp";
+// import PublicationsChair from "../assets/publicationsChair.webp";
+// import TechnicalProgramChair from "../assets/technicalProgramChair.webp";
 
 const CommitteeTree = () => {
   return (
@@ -32,80 +45,81 @@ const CommitteeTree = () => {
         <CommitteeCard
           title="Patron"
           image={Parton1}
-          name="Prof. ABC"
-          designation="Director"
+          name="Prof Phalguni Gupta"
+          designation="Vice Chancellor"
           institution="GLA University, Mathura, India"
         />
         <CommitteeCard
           title="Patron"
           image={Parton2}
-          name="Prof. PQR"
-          designation="Dean"
+          name="Mr Neeraj Agrawal"
+          designation="CEO"
           institution="GLA University, Mathura, India"
         />
       </div>
 
       {/* Level 3 - Four Cards */}
       <div className="tree-level">
+      <CommitteeCard
+          title="Patron"
+          image={Parton3}
+          name="Mr Vivek Agarwal"
+          designation="CFO"
+          institution="GLA University, Mathura, India"
+        />
         <CommitteeCard
           title="Chairperson"
-          image="/images/person4.jpg"
-          name="Dr. LMN"
-          designation="HOD, CSE"
+          image={ChairPerson}
+          name="Prof Anoop Gupta"
+          designation="Pro Vice Chancellor"
           institution="GLA University, Mathura, India"
         />
         <CommitteeCard
-          title="Facilitator"
-          image="/images/person5.jpg"
-          name="Mr. UVW"
-          designation="Senior Lecturer"
+          title="Facilator"
+          image={Facilitator}
+          name="Mr A K Singh"
+          designation="Registrar"
           institution="GLA University, Mathura, India"
         />
         <CommitteeCard
-          title="General Chair"
-          image="/images/person6.jpg"
-          name="Prof. XYZ"
-          designation="Professor"
-          institution="GLA University, Mathura, India"
+          title="Chairperson"
+          image={ChairPerson2}
+          name="Prof Santanu Chowdhury"
+          designation="Chief Technology Officer"
+          institution="Azista Industries Private Limited, India"
         />
-        <CommitteeCard
-          title="Technical Chair"
-          image="/images/person7.jpg"
-          name="Dr. RST"
-          designation="Researcher"
-          institution="GLA University, Mathura, India"
-        />
+        
       </div>
 
       {/* Level 4 - Four Cards */}
       <div className="tree-level">
-        <CommitteeCard
-          title="Finance Chair"
-          image="/images/person8.jpg"
-          name="Dr. DEF"
-          designation="Finance Head"
-          institution="GLA University, Mathura, India"
+      <CommitteeCard
+          title="Honorary General Chair"
+          image={HonoraryGeneralChair}
+          name="Prof S N Singh"
+          designation="Professor"
+          institution="IIT Kanpur, India"
         />
         <CommitteeCard
-          title="Organizing Chair"
-          image="/images/person9.jpg"
-          name="Dr. GHI"
-          designation="Event Coordinator"
-          institution="GLA University, Mathura, India"
-        />
-        <CommitteeCard
-          title="Publications Chair"
-          image="/images/person10.jpg"
-          name="Dr. JKL"
-          designation="Editor"
-          institution="GLA University, Mathura, India"
+          title="General Chair"
+          image={GeneralChair}
+          name="Prof. Asheesh K. Singh"
+          designation="Professor"
+          institution="MNNIT Allahabad, UP, India"
         />
         <CommitteeCard
           title="Technical Program Chair"
-          image="/images/person11.jpg"
-          name="Dr. MNO"
-          designation="Conference Head"
-          institution="GLA University, Mathura, India"
+          image={TechnicalChair}
+          name="Dr Mohd. Rihan"
+          designation="Professor"
+          institution="AMU, Aligarh, UP, India"
+        />
+        <CommitteeCard
+          title="Technical Program Chair"
+          image={TechnicalChair2}
+          name="Dr. Srinivas Bhaskar Karanki"
+          designation="Associate Professor"
+          institution="IIT Bhuvneshwar, India"
         />
       </div>
     </div>
