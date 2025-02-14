@@ -24,14 +24,14 @@ const speakersData = [
     title: "SMIEEE, Professor",
     designation: "Department of Electrical Engineering",
     university: "Motilal Nehru National Institute of Technology Allahabad",
-    image: speaker2,
+    image: speaker3,
   },
   {
     name: "Mr. Arun Kumar Paul",
     title: "Technical Director",
     designation: "Electronics Devices Worldwide Pvt Ltd",
     university: "India",
-    image: speaker3,
+    image: speaker2,
   },
 ];
 

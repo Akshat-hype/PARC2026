@@ -7,10 +7,11 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./Home.css";
 import logo from "../assets/logo.webp";
-import img1 from "../assets/image-1.webp";
+import img1 from "../assets/banner-end.webp";
 import img2 from "../assets/image-2.webp";
 import img3 from "../assets/image-3.webp";
 import img4 from "../assets/image-4.webp";
+import img from "../assets/image-1.webp";
 import Announcement from "../components/Announcement";
 import PastConferences from "../components/PastConferences";
 
@@ -94,7 +95,7 @@ function Home() {
                 </p>
             </div>
             <div class="parc-image">
-                <img src="assets/images/parc2024.jpg" alt="PARC 2026 Conference"/>
+                <img src={img} alt="PARC 2026 Conference"/>
             </div>
         </div>
     </div>
