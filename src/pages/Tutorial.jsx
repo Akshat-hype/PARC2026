@@ -6,7 +6,8 @@ const Tutorial = () => {
   return (
     <div className="tutorial-page">
       
-      <TutorialPerson />
+      {/* <TutorialPerson /> */}
+      <h1>To Be Announced soon!</h1>
     </div>
   );
 };

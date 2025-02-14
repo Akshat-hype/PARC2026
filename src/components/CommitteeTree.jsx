@@ -1,6 +1,10 @@
 import React from "react";
 import CommitteeCard from "./CommitteeCard";
 import "./CommitteeTree.css"; // Import styles
+import chiefParton from "../assets/chiefParton.webp";
+import coChiefParton from "../assets/coChiefParton.webp";
+import Parton1 from "../assets/Patron1.webp";
+import Parton2 from "../assets/Parton2.webp";
 
 const CommitteeTree = () => {
   return (
@@ -9,7 +13,7 @@ const CommitteeTree = () => {
       <div className="tree-level">
         <CommitteeCard
           title="Chief Patron"
-          image="/images/narayan-das-agrawal.jpg"
+          image={chiefParton}
           name="Shri. Narayan Das Agrawal"
           designation="Hon'ble Chancellor"
           institution="GLA University, Mathura, India"
@@ -20,21 +24,21 @@ const CommitteeTree = () => {
       <div className="tree-level">
         <CommitteeCard
           title="Co-Chief Patron"
-          image="/images/person1.jpg"
-          name="Prof. XYZ"
+          image={coChiefParton}
+          name="Prof. Durg Singh Chauhan"
           designation="Vice Chancellor"
           institution="GLA University, Mathura, India"
         />
         <CommitteeCard
           title="Patron"
-          image="/images/person2.jpg"
+          image={Parton1}
           name="Prof. ABC"
           designation="Director"
           institution="GLA University, Mathura, India"
         />
         <CommitteeCard
           title="Patron"
-          image="/images/person3.jpg"
+          image={Parton2}
           name="Prof. PQR"
           designation="Dean"
           institution="GLA University, Mathura, India"
