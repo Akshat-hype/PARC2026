@@ -60,7 +60,7 @@ function Home() {
             The ubiquity of information technology and computer power can be applied in many areas ranging from industrial production to everyday. Therefore, it is essential to develop better understandings and design methodologies for large scale pervasive systems for various domains, and for the societal challenges....
             </p>
             {/* ✅ Working Navigation Button */}
-            <button className="know-more" onClick={() => navigate("/about")}>
+            <button className="know-more" onClick={() => window.location.href = "https://www.gla.ac.in/"}>
               Know More
             </button>
           </div>
