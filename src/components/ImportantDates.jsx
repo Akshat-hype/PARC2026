@@ -9,23 +9,23 @@ const ImportantDates = () => {
         <tbody>
           <tr>
             <td>Paper submission Date:</td>
-            <td>To Be Announced soon</td>
+            <td>1st May 2025</td>
           </tr>
           <tr>
             <td>Last Date Of Paper Submission:</td>
-            <td>To Be Announced soon</td>
+            <td>30 November 2025</td>
           </tr>
           <tr>
             <td>Acceptance Notification:</td>
-            <td>To Be Announced soon</td>
+            <td>1st July 2025 ONWARDS</td>
           </tr>
           <tr>
             <td>Last Date Of Registration:</td>
-            <td>To Be Announced soon</td>
+            <td>15th January 2026</td>
           </tr>
           <tr>
             <td>Camera Ready Submission:</td>
-            <td>To Be Announced soon</td>
+            <td>20th January 2026</td>
           </tr>
           <tr>
             <td className="highlight-text">Conference Dates:</td>
