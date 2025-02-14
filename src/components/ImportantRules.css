@@ -39,6 +39,7 @@
     margin-bottom: 8px;
     padding-left: 15px;
     position: relative;
+    text-align: justify;
   }
   
   .section-list li::before {

@@ -24,7 +24,7 @@ const RegistrationFees = () => {
           <tr>
             <td><strong>Participants from Industries/Utilities/R&D organisations (INR)</strong></td>
             <td>8,000</td>
-            <td>9,000</td>
+            <td>9,500</td>
           </tr>
           <tr>
             <td><strong>Participants from academic Institutes (INR)</strong></td>
