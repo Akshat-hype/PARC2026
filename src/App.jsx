@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
 import Home from "./pages/Home_";
 import About from "./pages/About";
 import Committee from "./pages/Committee";
@@ -14,12 +13,13 @@ import Accommodation from "./pages/Accommodation";
 import Gallery from "./pages/Gallery";
 import ContactUs from "./pages/ContactUs";
 import Sponsors from "./pages/Sponsors";
-import Footer from "./components/Footer";
+// import { Layout } from "lucide-react";
+import Layout from "./components/Layout";
 
 const App = () => {
   return (
     <Router>
-      <Navbar />
+      <Layout>
       <div className="pt-20 text-center">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -39,7 +39,7 @@ const App = () => {
 
         </Routes>
       </div>
-      <Footer/>
+      </Layout>
     </Router>
   );
 };

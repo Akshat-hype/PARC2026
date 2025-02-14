@@ -1,13 +1,16 @@
 import React from "react";
 import { PhoneCall, Mail } from "lucide-react";
 import "./Accommodation.css"; // Import the CSS file
+import hotel1 from "../assets/hotel1.webp";
+import hotel2 from "../assets/hotel2.webp";
+import hotel3 from "../assets/hotel3.webp";
 
 const Accommodation = () => {
   return (
     <div className="accommodation-container">
       <h1 className="title">Hotel Booking</h1>
       <p className="description">
-        PARC 2024 committee has negotiated the tariff with the following hotels
+        PARC 2026 committee has negotiated the tariff with the following hotels
         nearby GLA University. Participants are requested to book their
         accommodation directly (if required) through the following information.
       </p>
@@ -28,9 +31,9 @@ const Accommodation = () => {
         </p>
 
         <div className="hotel-images">
-          <div className="image-placeholder">Image 1</div>
-          <div className="image-placeholder">Image 2</div>
-          <div className="image-placeholder">Image 3</div>
+          <img className="image-placeholder" src={hotel1}/>
+          <img className="image-placeholder" src={hotel2}/>
+          <img className="image-placeholder" src={hotel3}/>
         </div>
 
         <h3 className="section-title">Contact Person</h3>
