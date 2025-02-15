@@ -45,7 +45,7 @@ const TrackList = () => {
     <div className="track-list">
       <h2>Tracks/Sub Tracks for PARC 2024</h2>
       <hr />
-      <p>
+      <p s>
       The PARC 2026 organizing committee will accept the original contributions from areas of power electronics and renewable energy systems, including, but not limited to, the following research tracks
       </p>
       <div className="track-container">
