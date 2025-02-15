@@ -10,6 +10,9 @@
     font-size: 28px;
     font-weight: bold;
   }
+  .trck-list p{
+    color: black;
+  }
   
   .track-list hr {
     width: 80px;

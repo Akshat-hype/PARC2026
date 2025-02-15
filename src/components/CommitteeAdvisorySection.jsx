@@ -4,32 +4,40 @@ import "./CommitteeAdvisorySection.css"; // Import the CSS file
 const CommitteeAdvisorySection = () => {
   const advisoryData = [
     [
-      { name: "Shri. Neeraj Agrawal", position: "GLA University, Mathura, India" },
-      { name: "Shri. Vivek Agrawal", position: "GLA University, Mathura, India" },
-      { name: "Dr. K.C. Vora", position: "Sr. Dy. Director & Head, ARAI Academy" },
-      { name: "Prof. R.C. Bansal", position: "Electrical Engineering, University of Sharjah, UAE" },
-      { name: "Dr. G.L. Pahuja", position: "Electrical Engineering, NIT Kurukshetra, India" },
-      { name: "Prof. Harpal Tiwari", position: "Electrical Engineering, MNIT Jaipur, India" },
-      { name: "Prof. Khaleequr Rehman Niazi", position: "Electrical Engineering, MNIT Jaipur, India" }
+      { name: "Mr Neeraj Agarwal", position: "CEO, GLA University, Mathura" },
+      { name: "Mr Vivek Agarwal", position: "CFO, GLA University, Mathura" },
+      { name: "Prof Anoop Gupta", position: "Vice Chancellor, GLA University, Mathura, India" },
+      { name: "Prof S N Singh", position: "Professor, IIT Kanpur, UP, India" },
+      { name: "Mr A K Singh", position: "Registrar, GLA University, Mathura, India" },
+      { name: "Prof Kamal Sharma", position: "Dean R& D, GLA University, Mathura, India" },
+      { name: "Prof Dilip Sharma", position: "Dean (International Relations & Academic Collaborations)" },
+      { name: "Prof Ashish Kumar Sharna", position: "Dean Academics, GLA University, Mathura" },
+      { name: "Prof. Asheesh K. Singh", position: "Professor, Department of Electrical Engineering, MNNIT Allahabad, UP, India" },
+      { name: "Prof Vinay Deolia", position: "Professor & Head, EE and EC, GLA University, Mathura, India" },
+      { name: "Prof Md Rihan", position: "Director General, NISE, Gurugram" }
     ],
     [
-      { name: "Prof. Vishal Goyal", position: "GLA University, Mathura, India" },
-      { name: "Prof. Vikas Tripathi", position: "GLA University, Mathura, India" },
-      { name: "Prof. Aniruddha Pradhan", position: "GLA University, Mathura, India" },
-      { name: "Prof. Ranjit", position: "Electrical Engineering, IIT BHU, India" },
-      { name: "Prof. Ratna Dahiya", position: "Electrical Engineering, NIT Kurukshetra, India" },
-      { name: "Prof. Richa Negi", position: "Electrical Engineering, MNNIT Allahabad, India" },
-      { name: "Prof. Sukumar Mishra", position: "Electrical Engineering, IIT Delhi, India" }
+      { name: "Prof R K Singh", position: "Professor, Department of Electrical Engineering, MNNIT Allahabad, UP, India" },
+      { name: "Dr Sanjay Kumar Maurya", position: "Associate Professor, EED, GLA University, Mathura, India" },
+      { name: "Dr Sachin Goyal", position: "Assistant Professor, Department of Electrical Engineering, GLA University, Mathura, India" },
+      { name: "Dr Indresh Yadav", position: "Assistant Professor, Department of Electrical Engineering, GLA University, Mathura, India" },
+      { name: "Dr Bhupendra Singh Chauhan", position: "Professor, Department of Mechanical Engineering, GLA University, Mathura, India" },
+      { name: "Dr Vivek Srivastava", position: "Assistant Professor, Department of Electrical Engineering, GLA University, Mathura, India" },
+      { name: "Dr Kiran Patnaik", position: "Associate Professor, Indian Institute of Information Technology, Gwalior" },
+      { name: "Dr Md Zuhaib", position: "Assistant Professor, Department of Electrical Engineering, GLA University, Mathura, India" },
+      { name: "Dr Swapnil Srivastava", position: "Director, United College of Engineering and Research Allahabad" },
     ],
     [
-      { name: "Dr. Arvind K. Singh", position: "Scientist - ISRO" },
-      { name: "Dr. Jai Govind Singh", position: "AIT Thailand" },
-      { name: "Mr. Sachin Soni", position: "Manager, Merit Controls, United States" },
-      { name: "Dr. Kumar Padmanabh", position: "Senior Researcher, EBTIC, Abu Dhabi" },
-      { name: "Mr. Pankaj Rusia", position: "Regional VP at SAP SuccessFactors, South East Asia" },
-      { name: "Mr. Prashant Kumar", position: "Founder & CEO at Flex1 & TechBlocks, Canada" },
-      { name: "Mr. Ritesh Patel", position: "Director - Business Development, Happiest Minds Technologies, USA" },
-      { name: "Mr. Arun Gupta", position: "Director, Medicare Product" }
+      
+      { name: "Dr Ravi Sankar Tiwari", position: "Assistant Professor, Department of Electrical Engineering, GLA University, Mathura, India" },
+      { name: "Dr Subhash Chandra", position: "Assistant Professor, Department of Electrical Engineering, GLA University, Mathura, India" },
+      { name: "Dr Arvind Yadav", position: "Assistant Professor, Department of Electrical Engineering, GLA University, Mathura, India" },
+      { name: "Mr Mayank Goyal", position: "Assistant Professor, Department of Electrical Engineering, GLA University, Mathura, India" },
+      { name: "Mr Ram Naresh Mishra", position: "Assistant Professor, Department of Electrical Engineering, GLA University, Mathura, India" },
+      { name: "Dr Mukesh Pushkarna", position: "Assistant Professor, Department of Electrical Engineering, GLA University, Mathura, India" },
+      { name: "Dr Ashish Sinha", position: "Assistant Professor, Department of Electrical Engineering, GLA University, Mathura, India" },
+      { name: "Mr Vikas Kumar", position: "Assistant Professor, Department of Electrical Engineering, GLA University, Mathura, India" },
+      { name: "Dr Kundan Anand", position: "Assistant Professor, Department of Electrical Engineering, GLA University, Mathura, India" }
     ]
   ];
 
