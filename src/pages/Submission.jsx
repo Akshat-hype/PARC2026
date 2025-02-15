@@ -1,6 +1,8 @@
 import React from "react";
 import "./Submission.css";
 import { FaDownload } from "react-icons/fa";
+import conferenceTemp from "../assets/conference-template-a4.docx";
+import latextemp from "../assets/conference-latex-template.zip";
 
 const Submission = () => {
   return (
@@ -30,12 +32,16 @@ const Submission = () => {
             <span className="highlight"> IEEE Publishing Template</span>
           </p>
           <div className="download-buttons">
+          <a href={conferenceTemp} download="template.docx">
             <button className="download-btn">
               <FaDownload /> IEEE Format (Word)
             </button>
+          </a>
+          <a href={latextemp} download="template.zip">
             <button className="download-btn">
               <FaDownload /> IEEE Format (LaTeX)
             </button>
+          </a>
           </div>
         </div>
 
