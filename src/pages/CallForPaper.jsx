@@ -10,7 +10,7 @@ const CallForPaper = () => {
       <h2>CALL FOR PAPER</h2>
       <hr />
       <p>
-        The PARC 2024, with the conference theme on “Power Electronics, IoT and Renewable Energy applications,” 
+        The PARC 2026, with the conference theme on “Power Electronics, IoT and Renewable Energy applications,” 
         will explore the challenges in Future Grid-Interactive Power Converters regarding control strategies, 
         optimal operation, and corrective actions. It also targets the latest research on new strategies for 
         overcoming the technical challenges of grid integration of renewable energy systems, such as synchronizing 
