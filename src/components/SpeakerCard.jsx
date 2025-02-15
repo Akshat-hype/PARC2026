@@ -1,5 +1,6 @@
 import React from "react";
 import "./SpeakerCard.css";
+import speaker from "../assets/ProfRKSingh.webp";
 import speaker1 from "../assets/ProfRCBansal.webp";
 import speaker2 from "../assets/ArunKumarPaul.webp";
 import speaker3 from "../assets/AsheeshKumarSingh.webp";
@@ -10,7 +11,7 @@ const speakersData = [
     title: "Professor",
     designation: "Professor, Electrical Engineering and Computer Science",
     university: "MNIT, Jaipur",
-    image: "/path/to/vinod-khadkikar.jpg",
+    image: speaker,
   },
   {
     name: "Prof. R.C. Bansal",
