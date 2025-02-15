@@ -11,7 +11,7 @@ import img1 from "../assets/banner-end.webp";
 import img2 from "../assets/image-2.webp";
 import img3 from "../assets/image-3.webp";
 import img4 from "../assets/image-4.webp";
-import img from "../assets/image-1.webp";
+import img from "../assets/g27.webp";
 import Announcement from "../components/Announcement";
 import PastConferences from "../components/PastConferences";
 
