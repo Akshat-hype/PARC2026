@@ -29,7 +29,7 @@ const Submission = () => {
         <div className="download-section">
           <p>
             The IEEE Word and LaTeX format can be accessed from the link: 
-            <span className="highlight"> IEEE Publishing Template</span>
+            <a href="https://www.ieee.org/conferences/publishing/templates.html"><span className="highlight"> IEEE Publishing Template</span></a>
           </p>
           <div className="download-buttons">
           <a href={conferenceTemp} download="template.docx">
@@ -47,7 +47,7 @@ const Submission = () => {
 
         <h3 className="section-heading">How to Submit Paper:</h3>
         <p>
-          <strong>Log-in to:</strong> <span className="highlight">Microsoft CMT</span>
+          <strong>Log-in to:</strong> <a href="https://cmt3.research.microsoft.com/"><span className="highlight">Microsoft CMT</span></a>
         </p>
         <p className="note">
           Please note: The link will be active only from 1st March, 2025 till the closing date of submissions.
