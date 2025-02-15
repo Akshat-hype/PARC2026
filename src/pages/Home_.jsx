@@ -27,7 +27,7 @@ function Home() {
           4<sup>th</sup> International Conference on Power Electronics & IoT Application in Renewable Energy and its Control
           ( PARC 2026 )
         </h1>
-        <p className="overlay-subtext">21<sup>st</sup> - 22<sup>nd</sup> February 2026</p>
+        <p className="overlay-subtext">20<sup>th</sup> - 21<sup>st</sup> February 2026</p>
       </div>
 
       <div className="carousel-container">
@@ -78,7 +78,7 @@ function Home() {
         <div class="parc-content">
             <div class="parc-text">
                 <p>
-                The Department of Electrical Engineering will organize the PARC 2026 from 21st -22nd  February 2026 at GLA University, Mathura, India. With the conference theme on "Power Electronics, IoT and Renewable Energy applications", PARC 2026 would have tutorials, keynotes, panel discussion, paper & poster presentations, and opportunities for industry/trade exhibits, with separate industry sessions and student competitions as an integral part of the conference. It would offer ample networking opportunities for scientific & industrial collaboration.
+                The Department of Electrical Engineering will organize the PARC 2026 from 20th -21st  February 2026 at GLA University, Mathura, India. With the conference theme on "Power Electronics, IoT and Renewable Energy applications", PARC 2026 would have tutorials, keynotes, panel discussion, paper & poster presentations, and opportunities for industry/trade exhibits, with separate industry sessions and student competitions as an integral part of the conference. It would offer ample networking opportunities for scientific & industrial collaboration.
                 </p>
                 <p>
                 This conference will explore these research areas further by examining the importance of power electronics and IoT and their applications in the modern smart grid and the increasing Integration of renewable energy due to increasing environmental concerns. 

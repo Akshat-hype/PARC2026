@@ -29,7 +29,7 @@ const ImportantDates = () => {
           </tr>
           <tr>
             <td className="highlight-text">Conference Dates:</td>
-            <td className="highlight-date">February 21th - February 22th, 2026</td>
+            <td className="highlight-date">February 20th - February 21st, 2026</td>
           </tr>
         </tbody>
       </table>
