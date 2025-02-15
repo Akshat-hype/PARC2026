@@ -7,11 +7,12 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./Home.css";
 import logo from "../assets/logo.webp";
-import img1 from "../assets/banner-end.webp";
+import img1 from "../assets/g22.webp";
 import img2 from "../assets/image-2.webp";
 import img3 from "../assets/image-3.webp";
 import img4 from "../assets/image-4.webp";
-import img from "../assets/g27.webp";
+import img from "../assets/g21.webp";
+import img26 from "../assets/g26.webp";
 import Announcement from "../components/Announcement";
 import PastConferences from "../components/PastConferences";
 
@@ -65,7 +66,7 @@ function Home() {
             </button>
           </div>
           <div className="about-image">
-            <img src={img1} alt="GLA University" />
+            <img src={img26} alt="GLA University" />
           </div>
         </div>
       </div>
@@ -85,6 +86,12 @@ function Home() {
                 <p>
                 Power electronics is an essential area of electrical engineering and a crucial technology for using renewable power generation in modern power grids. These devices convert electricity from one stage to the other, leading to a power electronic-based power system. With the high penetration of electronic-based power generators, several technical challenges will appear in power grids. A new research platform is needed to design and test power electronic-based generators and their Integration with the power grid. 
                 </p>
+                
+            </div>
+            <div class="parc-image">
+                <img src={img} alt="PARC 2026 Conference"/>
+            </div>
+            <div class="parc-text2">
                 <p>
                 Power network operators are rapidly embracing renewable power generation into their power grids to meet the targets in power generation. Renewable energies such as wind and solar have become an inevitable part of power generation in current grid scenarios.  However, unlike conventional power generation sources, renewable energy sources' output is intermittent.  Advanced control strategies are required to handle the system's changing dynamics, nonlinearities, and uncertainties.  Efficient control strategies would increase the number of operational hours of the system and reduce the cost of the electricity produced.
                 </p>
@@ -93,9 +100,6 @@ function Home() {
                 </p>
                 <p>This conference aims to explore the challenges in Future Grid-Interactive Power Converters regarding control strategies, optimal operation, and corrective actions. PARC 2024 also targets presenting the latest research on new techniques for overcoming the technical challenges of grid integration of renewable energy systems, such as synchronization of interfaced converters with the power grid and operation and control of different power converters in power systems with large shares of renewable energies. The other area of focus of this conference is the application of IoT analytics in the renewable energy sector.
                 </p>
-            </div>
-            <div class="parc-image">
-                <img src={img} alt="PARC 2026 Conference"/>
             </div>
         </div>
     </div>

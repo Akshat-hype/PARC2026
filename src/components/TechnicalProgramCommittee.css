@@ -35,6 +35,7 @@
     font-weight: 500;
     margin-bottom: 0.5rem;
     color: black;  /* Ensuring text inside the box is black */
+    text-align: justify;
   }
   
   .technical-column p strong {

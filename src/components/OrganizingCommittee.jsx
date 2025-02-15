@@ -7,27 +7,25 @@ const OrganizingCommittee = () => {
       {
         title: "Technical Program Committee Co-Chair",
         members: [
-          { name: "Dr. Deepak", designation: "MNNIT, Prayagraj, UP, India" },
           { name: "Dr. MD Zuhaib", designation: "GLA University, Mathura, India" },
           { name: "Dr. Swapnil Srivastava", designation: "Dean Planning and Development, UCER, Prayagraj, India" },
           { name: "Dr. Rajiv Kumar Chauhan", designation: "GGITS, Jabalpur, MP, India" },
-          { name: "Dr. Sulabh Sachan", designation: "GLA University, Mathura, India" },
+          { name: "Dr. Ravi Sankar Tiwari", designation: "GLA University, Mathura, India" },
           { name: "Dr. Mukesh Pushkarna", designation: "GLA University, Mathura, India" },
         ],
       },
       {
         title: "Publication Co-Chair",
         members: [
-          { name: "Dr. Ashish Shukla", designation: "GLA University, Mathura, India" },
+          { name: "Dr. Arvind Yadav", designation: "GLA University, Mathura, India" },
           { name: "Dr. Subhash Chandra", designation: "GLA University, Mathura, India" },
         ],
       },
       {
         title: "Finance Co-Chair",
         members: [
-          { name: "Mr. Ravi Shankar Tiwari", designation: "GLA University, Mathura, India" },
           { name: "Dr. Jai Prakash", designation: "GLA University, Mathura, India" },
-          { name: "Ms. Hiya Agarwal", designation: "Student Volunteer, GLA University, Mathura, India" },
+          { name: "Ms. Omisha Deo", designation: "Student Volunteer, GLA University, Mathura, India" },
         ],
       },
     ],
@@ -36,9 +34,8 @@ const OrganizingCommittee = () => {
         title: "Website & Media Committee",
         members: [
           { name: "Mr. Mayak Goyal", designation: "GLA University, Mathura, India" },
-          { name: "Mr. Amit Kumar Yadav", designation: "Student Volunteer, GLA University, Mathura, India" },
-          { name: "Mr. Anubhav Singh", designation: "Student Volunteer, GLA University, Mathura, India" },
-          { name: "Mr. Anshul Chauhan", designation: "Student Volunteer, GLA University, Mathura, India" },
+          { name: "Mr. Akshat Goel", designation: "Student Volunteer, GLA University, Mathura, India" },
+          { name: "Mr. Piyush Kumar", designation: "Student Volunteer, GLA University, Mathura, India" }
         ],
       },
       {

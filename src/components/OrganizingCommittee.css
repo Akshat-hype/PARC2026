@@ -49,6 +49,7 @@
     font-weight: 500;
     color: black;
     margin-bottom: 0.5rem;
+    text-align: justify;
   }
   
   .committee-container p strong {

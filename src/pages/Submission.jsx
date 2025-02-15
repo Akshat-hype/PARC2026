@@ -9,6 +9,7 @@ const Submission = () => {
     <div className="submission-container">
       <h2 className="submission-title">SUBMISSION</h2>
       <div className="submission-content">
+        <div className="submission-txt">
         <h3 className="section-heading">Guidelines for Paper Submission:</h3>
         <p>All submissions must be in English only.</p>
         <p>
@@ -24,7 +25,7 @@ const Submission = () => {
           The review process for this conference is <strong>BLINDED</strong>, meaning authors and 
           reviewers are restricted from seeing each other’s identity.
         </p>
-
+        </div>
         <h3 className="section-heading">Template Download</h3>
         <div className="download-section">
           <p>
