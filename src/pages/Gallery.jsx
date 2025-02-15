@@ -18,10 +18,25 @@ import g13 from "../assets/g13.webp";
 import g14 from "../assets/g14.webp";
 import g15 from "../assets/g15.webp";
 import g16 from "../assets/g16.webp";
+import g17 from "../assets/g17.webp";
+import g18 from "../assets/g18.webp";
+import g19 from "../assets/g19.webp";
+import g20 from "../assets/g20.webp";
+import g21 from "../assets/g21.webp";
+import g22 from "../assets/g22.webp";
+import g23 from "../assets/g23.webp";
+import g24 from "../assets/g24.webp";
+import g25 from "../assets/g25.webp";
+import g26 from "../assets/g26.webp";
+import g27 from "../assets/g27.webp";
+import g28 from "../assets/g28.webp";
+import g29 from "../assets/g29.webp";
+import g30 from "../assets/g30.webp";
+import g31 from "../assets/g31.webp";
 
 // Dividing images into two categories
-const glimpsesImages = [g1, g2, g3, g4, g5, g6, g7, g8]; // PARC 2020-2022
-const electricalImages = [g9, g10, g11, g12, g13, g14, g15, g16]; // Electrical Engineering
+const glimpsesImages = [g17, g18, g19, g20, g21, g22, g23, g24, g25, g26, g27, g28, g29, g30, g31]; // PARC 2020-2022
+const electricalImages = [g1, g2, g3, g4, g5, g6, g7, g8,g9, g10, g11, g12, g13, g14, g15, g16]; // Electrical Engineering
 
 const GallerySection = ({ title, images }) => {
   const [viewMore, setViewMore] = useState(false);
@@ -46,8 +61,8 @@ const GallerySection = ({ title, images }) => {
 const Gallery = () => {
   return (
     <div className="gallery-container">
-      <GallerySection title="Glimpses of PARC 2020-2022" images={glimpsesImages} />
-      <GallerySection title="Department of Electrical Engineering" images={electricalImages} />
+      <GallerySection title="Glimpses of PARC 2024" images={glimpsesImages} />
+      <GallerySection title="Glimpses of PARC 2020-2022" images={electricalImages} />
     </div>
   );
 };
