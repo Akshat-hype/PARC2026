@@ -230,3 +230,25 @@ html, body {
     max-width: 100%;
   }
 }
+
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .overlay {
+    top: 45%; /* Adjusted for mobile */
+    width: 90%;
+  }
+
+  .overlay-text {
+    font-size: 1.8rem;
+  }
+
+  .overlay-subtext {
+    font-size: 1rem;
+  }
+
+  .carousel-container {
+    width: 95%;
+    height: 60vh;
+  }
+}
