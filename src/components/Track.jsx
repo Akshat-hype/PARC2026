@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Track.css";
 
 const Track = ({ title, description }) => {
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(true);
 
   return (
     <div className="track">
