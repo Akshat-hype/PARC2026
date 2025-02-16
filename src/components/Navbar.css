@@ -70,10 +70,11 @@ body {
   cursor: pointer;
   position: absolute;
   right: 20px;
+  color: #000;
 }
 
 /* Mobile Menu */
-@media (max-width: 992px) {
+@media (max-width: 1182px) {
   .nav-links {
       display: none;
   }
@@ -126,3 +127,4 @@ body {
       transform: translateY(0);
   }
 }
+
