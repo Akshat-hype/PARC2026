@@ -6,7 +6,7 @@ const Venue = () => {
     <div className="ven">
     <div className="venue-container">
       <div className="venue-details">
-        <h2>Department of Electronics & Communication</h2>
+        <h2>Department of Electrical Engineering</h2>
         <h3>GLA University, Mathura</h3>
         <p>17km Stone, NH-2, Mathura-Delhi Road, Chaumuhan</p>
         <p>Uttar Pradesh-281406, India</p>
