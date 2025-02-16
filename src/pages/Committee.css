@@ -1,14 +1,33 @@
 .committee-page {
-    text-align: center;
-    padding: 30px;
-    padding-top: 90px;
-    margin-left: 40px;
+  text-align: center;
+  padding: 30px;
+  padding-top: 110px;
+  margin-left: 40px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .committee-page {
+      padding: 20px;
+      padding-top: 100px; /* Slightly reduce top padding */
+      margin-left: 10px; /* Reduce left margin for smaller screens */
   }
-  
+
   .committee-title {
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
-    margin-bottom: 20px;
+      font-size: 26px; /* Slightly smaller font size */
+      margin-bottom: 15px;
   }
-  
+}
+
+@media (max-width: 480px) {
+  .committee-page {
+      padding: 15px;
+      padding-top: 90px;
+      margin-left: 5px;
+  }
+
+  .committee-title {
+      font-size: 22px; /* Further reduce title size for small screens */
+      margin-bottom: 10px;
+  }
+}
