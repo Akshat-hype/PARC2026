@@ -1,31 +1,82 @@
-.call{
-    padding-top: 70px;
+.call {
+  padding-top: 70px;
 }
 
 .call-for-paper {
-    text-align: center;
-    padding: 20px;
-    width: 80%;
-    margin-bottom: 50px;
-    padding-left: 150px;
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto 50px auto; /* Centering and maintaining margin-bottom */
+  padding-left: 0; /* Remove unnecessary left padding */
+}
+
+/* Title Styling */
+.call-for-paper h2 {
+  color: #008040;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Line Styling */
+.call-for-paper hr {
+  width: 80px;
+  border: 2px solid black;
+}
+
+/* Paragraph Styling */
+.call-for-paper p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .call-for-paper {
+      width: 90%;
+      padding: 15px;
+      padding-top: 30px;
   }
   
   .call-for-paper h2 {
-    color: #008040;
-    font-size: 28px;
-    font-weight: bold;
+      font-size: 24px;
   }
-  
-  .call-for-paper hr {
-    width: 80px;
-    border: 2px solid black;
-    /* margin: 10px auto; */
-  }
-  
+
   .call-for-paper p {
-    font-size: 16px;
-    color: #333;
-    line-height: 1.6;
-    text-align: justify;
+      font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .call-for-paper {
+      width: 95%;
+      padding: 10px;
+      padding-top: 30px;
   }
   
+  .call-for-paper h2 {
+      font-size: 22px;
+  }
+
+  .call-for-paper p {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .call-for-paper {
+      width: 98%;
+      padding: 8px;
+      padding-top: 30px;
+  }
+  
+  .call-for-paper h2 {
+      font-size: 20px;
+  }
+
+  .call-for-paper p {
+      font-size: 13px;
+      text-align: left; /* Better readability on small screens */
+  }
+}
