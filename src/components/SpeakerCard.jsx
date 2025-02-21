@@ -4,6 +4,7 @@ import speaker from "../assets/ProfRKSingh.webp";
 import speaker1 from "../assets/ProfRCBansal.webp";
 import speaker2 from "../assets/ArunKumarPaul.webp";
 import speaker3 from "../assets/AsheeshKumarSingh.webp";
+import speaker4 from "../assets/jaigovind.webp";
 
 const speakersData = [
   {
@@ -34,6 +35,14 @@ const speakersData = [
     university: "India",
     image: speaker2,
   },
+  {
+    name: "Dr. Jai Govind Singh",
+    title: "Associate Professor",
+    designation: "Head, Dept. of Energy and Climate Change",
+    university:"AIT, Thailand",
+    image: speaker4,
+
+  }
 ];
 
 const SpeakerCard = ({ speaker }) => {
