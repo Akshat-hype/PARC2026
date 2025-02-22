@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contactus.css";
+import "./ContactUs.css";
 import { FaEnvelope, FaMapMarkerAlt, FaUserTie } from "react-icons/fa";
 
 const ContactUs = () => {
